@@ -1,4 +1,4 @@
-package Aula9
+package Aula9.Exercicio1/*package Aula9
 
 fun main() {
     val professor = Professor("Cesar Rodrigues", "1234")
@@ -9,8 +9,8 @@ fun main() {
     val materiaAndroid = Materia("Aula de Android")
     val aulaAndroid = Aula(materiaAndroid, "19:30", "21:45")
 
-    val luci = Aluno("1234", "Luci", "Pereira")
-    val gabi = Aluno("4321", "Gabi", "Nascimento")
+    val luci = Alunos("1234", "Luci", "Pereira")
+    val gabi = Alunos("4321", "Gabi", "Nascimento")
 
     val curso = Curso(
         "Curso de Android 10/10",
@@ -53,10 +53,13 @@ class Aluno(
 
 class Curso(
     nome: String,
-    val listaAulas: List<Aula>,
-    val listaAlunos: List<Aluno>,
+    val listaAulas: List<Aulas>,
+    val listaAlunos: List<Alunos>,
     professor: Professor
 )
 
 class Turma(nome: String, val curso: Curso)
 
+
+
+ */
